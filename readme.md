@@ -11,38 +11,12 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 ## Passos para subir o projeto
 
 1. **Faça o download do repositório:**
-   [Clique aqui para realizar o download](https://github.com/guilhermeonrails/imersao-devops/archive/refs/heads/main.zip)
+   [Clique aqui para realizar o download](https://github.com/gMoraes1/API-Escola)
 
-2. **Crie um ambiente virtual:**
-   ```sh
-   python3 -m venv ./venv
-   ```
+2. **Rode o seguinte comando do docker**
+{docker compose up}
 
-3. **Ative o ambiente virtual:**
-   - No Linux/Mac:
-     ```sh
-     source venv/bin/activate
-     ```
-   - No Windows, abra um terminal no modo administrador e execute o comando:
-   ```sh
-   Set-ExecutionPolicy RemoteSigned
-   ```
-
-     ```sh
-     venv\Scripts\activate
-     ```
-
-4. **Instale as dependências:**
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-5. **Execute a aplicação:**
-   ```sh
-   uvicorn app:app --reload
-   ```
-
-6. **Acesse a documentação interativa:**
+3. **Acesse a documentação interativa:**
 
    Abra o navegador e acesse:  
    [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
